@@ -38,6 +38,9 @@ import { SharedModule } from '@app/shared';
 <% if (props.auth) { -%>
 import { AuthModule } from '@app/auth';
 <% } -%>
+<% if (props.contract) { -%>
+    import { ContractModule } from './contract/contract.module';
+    <% } -%>
 import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
 <% if (!props.lazy) { -%>
@@ -78,6 +81,9 @@ import { AppRoutingModule } from './app-routing.module';
 <% } -%>
 <% if (props.auth) { -%>
     AuthModule,
+<% } -%>
+<% if (props.contract) { -%>
+    ContractModule,
 <% } -%>
 <% if (props.angulartics ) { -%>
     Angulartics2Module.forRoot(),

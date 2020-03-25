@@ -142,7 +142,8 @@ class NgxGenerator extends Generator {
       this.props.target.includes('web') && this.props.pwa ? 'pwa' : '',
       this.props.target.includes('cordova') ? this.props.mobile : '',
       this.props.ui,
-      this.props.auth ? 'auth' : 'no-auth'
+      this.props.auth ? 'auth' : 'no-auth',
+      this.props.contract ? 'contract' : 'no-contract'
     );
     this.insight.track('package-manager', this.packageManager);
 

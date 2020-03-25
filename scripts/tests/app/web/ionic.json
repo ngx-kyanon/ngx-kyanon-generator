@@ -1,0 +1,9 @@
+{
+  "target": ["web"],
+  "pwa": false,
+  "ui": "ionic",
+  "layout": "tabs",
+  "auth": false,
+  "lazy": true,
+  "angulartics": false
+}

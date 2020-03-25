@@ -1,0 +1,11 @@
+{
+  "target": ["web"],
+  "pwa": true,
+  "ui": "ionic",
+  "layout": "side-menu",
+  "auth": true,
+  "lazy": true,
+  "location": "hash",
+  "strict": true,
+  "tools": ["jest"]
+}

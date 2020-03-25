@@ -1,0 +1,33 @@
+{
+  "name": "generator-<%= props.projectName %>",
+  "version": "1.0.0",
+  "description": "<%= props.description %>",
+  "main": "./generators/app/index.js",
+  "scripts": {
+    "test": "xo generators/app/*.js",
+    "postpublish": "git tag -a $npm_package_version -m \"$npm_package_version\" && git push --tags"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "ngx-kyanon-addon"
+  ],
+  "author": "<%= props.author %>",
+  "license": "MIT",
+  "dependencies": {
+    "@ngx-kyanon/core": "^5.0.2",
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "xo": "^0.27.2"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "xo": {
+    "space": true,
+    "prettier": true
+  },
+  "files": [
+    "generators/app"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "target": ["web"],
+  "pwa": false,
+  "ui": "raw",
+  "auth": false,
+  "lazy": false,
+  "angulartics": true,
+  "analyticsProvider": "other",
+  "tools": ["compodoc", "jest"],
+  "utility": ["lodash", "moment"]
+}

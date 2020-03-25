@@ -1,6 +1,6 @@
 {
   "name": "ngx-kyanon-generator",
-  "version": "7.1.0",
+  "version": "7.1.1",
   "description": "Extensible Angular 8+ enterprise-grade project generator based on angular-cli with best practices from the community. Includes PWA/Cordova/Electron support, coding guides and more!",
   "keywords": [
     "yeoman-generator",
@@ -53,8 +53,8 @@
     "changelog": "github_changelog_generator && git add CHANGELOG.md && git commit -m 'Update changelog'"
   },
   "dependencies": {
-    "@ngx-kyanon/ascii-logo": "^1.0.1",
-    "@ngx-kyanon/core": "^5.0.2",
+    "@ngx-rocket/ascii-logo": "^1.0.1",
+    "@ngx-rocket/core": "^5.0.2",
     "chalk": "^3.0.0",
     "conf": "^6.2.1",
     "cross-spawn": "^7.0.1",

@@ -126,6 +126,12 @@ module.exports = [
   },
   {
     type: 'confirm',
+    name: 'contact',
+    message: 'Do you want add Kyanon Contact conponent?',
+    default: true
+  },
+  {
+    type: 'confirm',
     name: 'lazy',
     message: 'Do you want lazy loading?',
     default: true

@@ -14,7 +14,7 @@
   "author": "<%= props.author %>",
   "license": "MIT",
   "dependencies": {
-    "@ngx-kyanon/core": "^5.0.2",
+    "@ngx-rocket/core": "^5.0.2",
     "chalk": "^2.4.2"
   },
   "devDependencies": {

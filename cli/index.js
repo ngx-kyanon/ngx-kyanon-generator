@@ -10,7 +10,7 @@ const get = require('lodash.get');
 const minimist = require('minimist');
 const updateNotifier = require('update-notifier');
 const spawn = require('cross-spawn');
-const asciiLogo = require('@ngx-kyanon/ascii-logo');
+const asciiLogo = require('@ngx-rocket/ascii-logo');
 const fuzzyRun = require('fuzz-run');
 const pkg = require('../package.json');
 

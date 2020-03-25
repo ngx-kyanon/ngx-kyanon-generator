@@ -3,8 +3,8 @@ const path = require('path');
 const chalk = require('chalk');
 const Insight = require('insight');
 const semver = require('semver');
-const Generator = require('@ngx-kyanon/core');
-const asciiLogo = require('@ngx-kyanon/ascii-logo');
+const Generator = require('@ngx-rocket/core');
+const asciiLogo = require('@ngx-rocket/ascii-logo');
 
 const pkg = require('../../package.json');
 const prompts = require('./prompts');

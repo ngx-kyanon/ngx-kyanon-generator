@@ -9,7 +9,7 @@ This add-on was generated with [ngx-kyanon](https://github.com/ngx-kyanon/ngx-ky
 Install [ngx-kyanon CLI](https://github.com/ngx-kyanon/cli) and this add-on:
 
 ```sh
-npm install -g @ngx-kyanon/cli <%= props.projectName %>
+npm install -g @ngx-rocket/cli <%= props.projectName %>
 ```
 
 # Usage

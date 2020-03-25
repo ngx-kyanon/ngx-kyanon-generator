@@ -1,4 +1,4 @@
-const Generator = require('@ngx-kyanon/core');
+const Generator = require('@ngx-rocket/core');
 <% if (props.advanced) { -%>
 const chalk = require('chalk');
 const pkg = require('../../package.json');

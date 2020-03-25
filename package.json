@@ -1,6 +1,6 @@
 {
   "name": "ngx-kyanon-generator",
-  "version": "7.1.6",
+  "version": "7.1.7",
   "description": "Extensible Angular 8+ enterprise-grade project generator based on angular-cli with best practices from the community. Includes PWA/Cordova/Electron support, coding guides and more!",
   "keywords": [
     "yeoman-generator",

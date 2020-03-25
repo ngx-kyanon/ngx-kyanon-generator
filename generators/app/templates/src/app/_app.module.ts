@@ -39,7 +39,7 @@ import { SharedModule } from '@app/shared';
 import { AuthModule } from '@app/auth';
 <% } -%>
 <% if (props.contract) { -%>
-    import { ContractModule } from './contract/contract.module';
+    import { ContractModule } from '@app/contract';
     <% } -%>
 import { HomeModule } from './home/home.module';
 import { ShellModule } from './shell/shell.module';
